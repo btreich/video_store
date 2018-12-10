@@ -6,4 +6,4 @@
       - image: srcml/ubuntu_x86_64_base
     steps:
       - checkout
-      - run: cd video_store/src && make test
+      - run: cd src && make test
